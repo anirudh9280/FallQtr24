@@ -1,0 +1,11 @@
+- Big O Notation 
+	- O(1), called constant time
+	- O(log n), called logaritmic time
+	- O(n), called linear time
+	- O(n2), called quadratic time
+- O(n^2) is one of the worst cases because as the size increases the work increases exponentially 
+- O(logn) is usually what is realistic and it's pretty quick as the work done by the algorithm decreases in half after each iteration 
+More on logarithmic search:
+- start with N elements of an array, the next iteration you check N/2, and then N/4 so your curve goes down as the algorithm progresses - binary search is a good example of this
+- O(nlogn) is when there is a logarithmic search in a linear time for loop usually - merge sort is a good example of this
+- 

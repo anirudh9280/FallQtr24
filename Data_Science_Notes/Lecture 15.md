@@ -20,7 +20,7 @@ Second Example:
 				j = j + 1
 ```
 ```
-		This would be O(n) because the second loop would terminate after the first iteration as j would be bigger than i, then that leaves the top for loop and this would just be O(n)
+		This would be O(n^2) because the second loop would terminate after the first iteration as j would be bigger than i, then that leaves the top for loop and this would just be O(n)
 Third Example: 
 ``
 	sum = 0 

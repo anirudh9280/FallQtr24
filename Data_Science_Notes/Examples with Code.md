@@ -10,10 +10,10 @@ This would be O(n) because it goes through the loop n times
 sum = 0
 for i in range(1, n+1):
 	if (i%3 == 0):
-	sum = sum * i
-	print(i)
+		sum = sum * i
+		print(i)
 ```
-This would be O(logn) because the i gets divided each time, the work would decrease 
+This would be O(n) because the i gets divided each time, the work would decrease 
 
 ```python
 sum = 0

@@ -1,4 +1,4 @@
-- The subclasses inherit the parent clas
+- The subclasses inherit the parent class
 ```python
 class Animal():
 	name = ""

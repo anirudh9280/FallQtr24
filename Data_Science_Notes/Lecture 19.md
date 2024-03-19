@@ -29,6 +29,7 @@ def invert_safe(x):
 	try:
 		return invert(x)
 	except ZeroDivisionError as e:
+		print(x) # 0 
 		return str(e)
 print(invert_safe(0))
 -> divison by zero
@@ -49,7 +50,7 @@ def invites(names, ages):
 		if (ages[i] < 21):
 			raise ValueError("Too young to come")
 		else:
-			print("{} is above 21. {} you are invited".format(ages[i], names[i]))
+			print("{} is above 21. {} you are invited".format(names[i], ages[i]))
 
 def better_invites(names, ages):
 	try:

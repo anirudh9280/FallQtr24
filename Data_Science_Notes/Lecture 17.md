@@ -28,15 +28,15 @@ class Account():
 Example:
 ```python
 class Example:
-count = 1
-another_number = 6
-def __init__(self, initial_value):
-	self.count = 0
-	self.count = self.count + initial_value
-def increment(self, amount):
-	self.count = self.count + amount
-	
-	Example.count = Example.count + 1
+	count = 1
+	another_number = 6
+	def __init__(self, initial_value):
+		self.count = 0
+		self.count = self.count + initial_value
+	def increment(self, amount):
+		self.count = self.count + amount
+		
+		Example.count = Example.count + 1
 	
 	return self.count
 e = Example(4)

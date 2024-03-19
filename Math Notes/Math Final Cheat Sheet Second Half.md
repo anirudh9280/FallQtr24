@@ -39,7 +39,7 @@
 **Lecture 25**
 - an orthogonal set can have the zero vector in it, but an orthogonal set that does not have the zero vector in it is linearly independent
 - in that vein, not every linearly independent set is orthogonal but every orthogonal set minus the zero vector is linearly independent
-- projection of y onto L is ( (y.u1)/u1.u1 ) * u  
+- projection of y onto L is ( (y.u1)/u1.u1 ) * u1  
 - using this, the vector y = proj of y onto W + vector z
 - proj y onto W is equal to c1u1+..+cpup such that ci is (y.ui)/(ui.ui)
 - ![[Screenshot 2024-03-14 at 5.55.41 PM.png]]
